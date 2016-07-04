@@ -18,7 +18,7 @@ var matchshortCode = Spark.getData().match_shortcode;
         Spark.getLog().debug("matchshortCode: "+ matchshortCode);
         Spark.getLog().debug("skill: "+ Spark.getPlayer().getScriptData("baseLevel"));
 
-        //From Local
+        //From LocalTest
 
         matchRequest.Send();
     }
